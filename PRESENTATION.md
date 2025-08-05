@@ -50,7 +50,7 @@ Kotlin traz recursos modernos que permitem:
 ## Lucas Fugisawa
 - Artigos, E-book, Newsletter, 1-1: **[fugisawa.com](https://fugisawa.com)**
 - Comunidade **Kotlin Devs Brasil**: **[kotlinbr.dev](https://kotlinbr.dev)**
-- LinkedIn: [lucasfugisawa](https://www.linkedin.com/in/lucasfugisawa/)
+- LinkedIn: **[lucasfugisawa](https://www.linkedin.com/in/lucasfugisawa/)**
 
 ### E-book + Sorteio de uma licença de 1 ano para qualquer IDE da JetBrains:
 <div align="center">
