@@ -1,5 +1,11 @@
 package com.fugisawa.dp3_proxy
 
+// Problemas:
+// 1. Controlar o acesso a um objeto -> segurança, controle, encapsulamento
+// 2. Adiar a criação ou carga de objetos “caros” -> lazy loading
+// 3. Acrescentar comportamento sem modificar o objeto real
+// 4. Controlar chamadas remotas como se fossem locais
+
 interface Image {
     fun display()
 }

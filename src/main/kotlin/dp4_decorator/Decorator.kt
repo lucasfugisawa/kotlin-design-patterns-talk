@@ -1,5 +1,11 @@
 package com.fugisawa.dp4_decorator
 
+// Problema:
+// Adicionar funcionalidades a um objeto de forma flexível e dinâmica
+// evitando explosão de subclasses
+// evitando modificar o código original
+// possibilitando compor funcionalidades em tempo de execução.
+
 // Interface base
 interface UserRepository {
     fun getFullName(userId: String): String?

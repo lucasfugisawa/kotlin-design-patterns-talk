@@ -1,5 +1,10 @@
 package com.fugisawa.dp2_builder
 
+// Problemas:
+// 1. Construtores com muitos parâmetros (especialmente opcionais) -> muitas sobrecargas
+// 2. Construção passo a passo de objetos complexos -> falhar rápido
+// 3. Separar a lógica de construção da representação final -> desacoplamento
+
 class Car private constructor(
     val make: String,
     val model: String,

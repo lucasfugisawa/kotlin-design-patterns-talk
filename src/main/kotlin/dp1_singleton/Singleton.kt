@@ -1,5 +1,7 @@
 package com.fugisawa.dp1_singleton
 
+// Problema: instância única e acessível.
+
 class DriverManager private constructor() {
     companion object {
         // Não é lazy/thread-safe
