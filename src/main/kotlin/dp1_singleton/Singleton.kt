@@ -1,13 +1,13 @@
 package com.fugisawa.dp1_singleton
 
-class ConfigurationManager private constructor() {
+class DriverManager private constructor() {
     companion object {
         // Não é lazy/thread-safe
-        private var instance: ConfigurationManager? = null
+        private var instance: DriverManager? = null
 
-        fun getInstance(): ConfigurationManager {
+        fun getInstance(): DriverManager {
             if (instance == null) {
-                instance = ConfigurationManager()
+                instance = DriverManager()
             }
             return instance!!
         }
@@ -17,5 +17,5 @@ class ConfigurationManager private constructor() {
 }
 
 fun main() {
-    val configurationManager = ConfigurationManager.getInstance()
+    val driverManager = DriverManager.getInstance()
 }
