@@ -1,4 +1,4 @@
-package com.fugisawa.dp4_Decorator
+package com.fugisawa.dp4_decorator
 
 // Interface base
 interface UserRepository {
